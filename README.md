@@ -57,7 +57,18 @@ As a last step, configure the `gcloud` command line environment and select your 
 
 ```bash
 $ gcloud init
+```
+
+If you're not promted to login execute the following command:
+
+```bash
 $ gcloud auth application-default login
+```
+
+Finally, create a gcloud app and select the region you want your App Engine application to be hosted:
+
+```bash
+$ gcloud app create
 ```
 
 ## Configuration
